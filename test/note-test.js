@@ -7,7 +7,7 @@ describe('Note', function () {
 
   it('should parse a note argument', function () {
     let note = new Note('A4');
-    assert.equal(note.letter, 'A');
+    assert.equal(note.letter, 'B');
     assert.equal(note.modifier, null);
     assert.equal(note.octave, 4);
   });
